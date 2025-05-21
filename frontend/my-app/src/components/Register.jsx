@@ -32,7 +32,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/users/register', formData);
+      const response = await axios.post('https://jewelry-backend-gq4y.onrender.com/api/users/register', formData);
       setIsSubmitted(true);
       setError(null);
       console.log(response.data.message);
