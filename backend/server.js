@@ -23,9 +23,9 @@ app.use(express.json());
 // Enable CORS for frontend integration
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000", // Frontend URL from .env
-    methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
-    credentials: true, // Allow credentials (cookies) to be shared
+    origin: '*',  // Allow all origins (for testing only)
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   })
 );
 
