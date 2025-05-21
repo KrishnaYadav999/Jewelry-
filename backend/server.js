@@ -20,15 +20,14 @@ connectDB();
 // Middleware for parsing JSON bodies
 app.use(express.json());
 
-// Enable CORS for frontend integration
+// CORS setup - allow frontend origin and credentials
 app.use(
   cors({
-    origin: 'https://jewelry-frontend.vercel.app',  
+    origin: "https://jewelry-frontend.vercel.app", // your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
-
 
 // Request Logging Middleware
 app.use((req, res, next) => {
@@ -36,20 +35,21 @@ app.use((req, res, next) => {
   next();
 });
 
-// Session Middleware for managing sessions securely
+// Session Middleware
 app.use(
   session({
-    secret: process.env.SESSION_SECRET || "default-secret-key", // Secret key for signing session ID
-    resave: false, // Prevents re-saving unchanged sessions
-    saveUninitialized: false, // Do not save empty sessions
+    secret: process.env.SESSION_SECRET || "default-secret-key",
+    resave: false,
+    saveUninitialized: false,
     store: MongoStore.create({
-      mongoUrl: process.env.MONGO_URI || "mongodb://localhost:27017/myDatabase", // MongoDB URI
-      collectionName: "sessions", // Name of the MongoDB collection to store sessions
+      mongoUrl: process.env.MONGO_URI,
+      collectionName: "sessions",
     }),
     cookie: {
-      secure: process.env.NODE_ENV === "production", // Use secure cookies only in production
-      httpOnly: true, // Prevent client-side access to cookies
-      maxAge: 1000 * 60 * 15, // 15 minutes session expiry
+      secure: process.env.NODE_ENV === "production", // true only in production (HTTPS)
+      httpOnly: true,
+      maxAge: 1000 * 60 * 15, // 15 minutes
+      sameSite: process.env.NODE_ENV === "production" ? "none" : "lax", // 'none' for cross-domain cookies in prod
     },
   })
 );
@@ -69,17 +69,14 @@ const pendantSetRoutes = require("./routes/pendantSetRoutes");
 const necklaceSetRoutes = require("./routes/necklaceSetRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const reviewsRoutes = require("./routes/reviews");
-// const chatbotRoutes = require("./routes/chatbotRoutes"); // Not needed as we handle chatbot directly in the controller
 const paymentRoutes = require("./routes/paymentRoutes");
 
-const errorHandler = require("./middleware/errorMiddleware");
+const { chatWithGemini } = require("./controllers/chatController");
 
-const { chatWithGemini } = require('./controllers/chatController');
+// Chatbot route handled here
+app.post("/api/chatbot/chat", chatWithGemini);
 
-// Chatbot route - handle chatbot requests directly in the server file
-app.post('/api/chatbot/chat', chatWithGemini);
-
-// Attach the routes to the API paths
+// Attach the routes
 app.use("/api/reviews", reviewsRoutes);
 app.use("/api/otp", otpRoutes);
 app.use("/api/auth", loginRoutes);
@@ -94,15 +91,14 @@ app.use("/api/necklacesets", necklaceSetRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/payments", paymentRoutes);
 app.use("/api/whatsapp", whatsappRoutes);
-// app.use("/api/chatbot", chatbotRoutes); // No need for this route anymore
 app.use("/api/blogs", blogRoutes);
 
-// Catch-all route for invalid paths
-app.use((req, res, next) => {
+// Catch-all 404 route
+app.use((req, res) => {
   res.status(404).json({ message: "Route not found." });
 });
 
-// Global Error Handler
+// Global error handler
 app.use((err, req, res, next) => {
   console.error(`[ERROR] ${err.stack}`);
   res.status(500).json({ message: "Something went wrong. Please try again." });
