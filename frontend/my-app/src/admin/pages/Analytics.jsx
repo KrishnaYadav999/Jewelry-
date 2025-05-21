@@ -52,14 +52,14 @@ const Analytics = () => {
     setError("");
     try {
       const endpoints = {
-        mangalsutras: "http://localhost:5000/api/mangalsutras",
-        bangles: "http://localhost:5000/api/bangles",
-        bracelets: "http://localhost:5000/api/bracelets",
-        earrings: "http://localhost:5000/api/earrings",
-        pendantSets: "http://localhost:5000/api/pendantSets",
-        rings: "http://localhost:5000/api/rings",
-        orders: "http://localhost:5000/api/orders",
-        users: "http://localhost:5000/api/users",
+        mangalsutras: "https://jewelry-backend-gq4y.onrender.com/api/mangalsutras",
+        bangles: "https://jewelry-backend-gq4y.onrender.com/api/bangles",
+        bracelets: "https://jewelry-backend-gq4y.onrender.com/api/bracelets",
+        earrings: "https://jewelry-backend-gq4y.onrender.com/api/earrings",
+        pendantSets: "https://jewelry-backend-gq4y.onrender.com/api/pendantSets",
+        rings: "https://jewelry-backend-gq4y.onrender.com/api/rings",
+        orders: "https://jewelry-backend-gq4y.onrender.com/api/orders",
+        users: "https://jewelry-backend-gq4y.onrender.com/api/users",
       };
 
       const results = await Promise.all(
