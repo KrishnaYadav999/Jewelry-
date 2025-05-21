@@ -19,14 +19,14 @@ const ProductDetail = () => {
   // Fetch product data
   const fetchProductData = async () => {
     const urls = [
-      "http://localhost:5000/api/mangalsutras",
-      "http://localhost:5000/api/bangles",
-      "http://localhost:5000/api/bracelets",
-      "http://localhost:5000/api/earrings",
-      "http://localhost:5000/api/pendantSets",
-      "http://localhost:5000/api/rings",
-      "http://localhost:5000/api/necklacesets",
-      "http://localhost:5000/api/earrings-combos"
+      "https://jewelry-backend-gq4y.onrender.com/api/mangalsutras",
+      "https://jewelry-backend-gq4y.onrender.com/api/bangles",
+      "https://jewelry-backend-gq4y.onrender.com/api/bracelets",
+      "https://jewelry-backend-gq4y.onrender.com/api/earrings",
+      "https://jewelry-backend-gq4y.onrender.com/api/pendantSets",
+      "https://jewelry-backend-gq4y.onrender.com/api/rings",
+      "https://jewelry-backend-gq4y.onrender.com/api/necklacesets",
+      "https://jewelry-backend-gq4y.onrender.com/api/earrings-combos"
     ];
 
     try {
