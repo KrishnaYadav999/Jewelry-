@@ -12,7 +12,7 @@ const NewArrivals = () => {
     const fetchProducts = async () => {
       try {
         // Fetch data from the API
-        const response = await axios.get('http://localhost:5000/api/mangalsutras');
+        const response = await axios.get('https://jewelry-backend-gq4y.onrender.com/api/mangalsutras');
 
         console.log(response.data); // Debug the response
 
