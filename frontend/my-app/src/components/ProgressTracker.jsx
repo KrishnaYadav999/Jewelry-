@@ -29,7 +29,7 @@ const ProgressTracker = () => {
 
     try {
       // Call your backend API to cancel order using orderId
-      const response = await axios.post("http://localhost:5000/api/orders/cancel", {
+      const response = await axios.post("https://jewelry-backend-gq4y.onrender.com/api/orders/cancel", {
         orderId,
       });
 
