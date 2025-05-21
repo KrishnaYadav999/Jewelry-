@@ -10,7 +10,7 @@ const CustomerReviews = () => {
   // Fetch reviews from the backend
   const fetchReviews = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/reviews");
+      const response = await fetch("https://jewelry-backend-gq4y.onrender.com/api/reviews");
       const data = await response.json();
       setReviews(data);
     } catch (error) {
