@@ -7,7 +7,7 @@ const AccountPage = () => {
   useEffect(() => {
     // Fetch user data from the API
     axios
-      .get("http://localhost:5000/api/users", {
+      .get("https://jewelry-backend-gq4y.onrender.com/api/users", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`, // Ensure correct token
         },
