@@ -3,10 +3,14 @@
   "builds": [
     { "src": "package.json", "use": "@vercel/static-build" }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/:path*",
-      "destination": "https://jewelry-backend-gq4y.onrender.com/api/:path*"
+      "src": "/api/(.*)",
+      "dest": "https://jewelry-backend-gq4y.onrender.com/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
