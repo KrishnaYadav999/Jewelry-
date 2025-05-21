@@ -38,7 +38,7 @@ const Checkout = () => {
     }
 
     try {
-      const { data } = await axios.post("http://localhost:5000/api/payments/create-order", {
+      const { data } = await axios.post("https://jewelry-backend-gq4y.onrender.com/api/payments/create-order", {
         amount: product.price,
       });
 
