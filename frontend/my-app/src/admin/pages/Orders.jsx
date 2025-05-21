@@ -14,7 +14,7 @@ const Orders = () => {
     // Fetch orders from the backend
     const fetchOrders = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/orders"); // Update the API endpoint if needed
+        const response = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/orders"); // Update the API endpoint if needed
         setOrders(response.data.orders);
         setFilteredOrders(response.data.orders);
         setIsLoading(false);
