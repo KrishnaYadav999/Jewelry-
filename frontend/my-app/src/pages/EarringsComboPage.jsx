@@ -26,7 +26,7 @@ const EarringsComboPage = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/earringscombos', {
+      const response = await axios.get('https://jewelry-backend-gq4y.onrender.com/api/earringscombos', {
         params: {
           sort: sortOption,
           page: currentPage,
