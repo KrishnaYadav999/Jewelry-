@@ -21,11 +21,11 @@ const YouAlsoLike = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const banglesResponse = await axios.get("http://localhost:5000/api/bangles");
-        const mangalsutrasResponse = await axios.get("http://localhost:5000/api/mangalsutras");
-        const braceletsResponse = await axios.get("http://localhost:5000/api/bracelets");
-        const earringsResponse = await axios.get("http://localhost:5000/api/earrings");
-        const ringsResponse = await axios.get("http://localhost:5000/api/rings");
+        const banglesResponse = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/bangles");
+        const mangalsutrasResponse = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/mangalsutras");
+        const braceletsResponse = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/bracelets");
+        const earringsResponse = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/earrings");
+        const ringsResponse = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/rings");
 
         const banglesData = banglesResponse.data.bangles || [];
         const mangalsutrasData = mangalsutrasResponse.data.mangalsutras || [];
