@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 // Backend URL for WhatsApp notifications
-const BACKEND_WHATSAPP_URL = "http://localhost:5000/api/send-whatsapp";
+const BACKEND_WHATSAPP_URL = "https://jewelry-backend-gq4y.onrender.com/api/send-whatsapp";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
