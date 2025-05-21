@@ -21,7 +21,7 @@ const RingPage = () => {
   // Fetch products from the API with pagination and sorting
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/rings', {
+      const response = await axios.get('https://jewelry-backend-gq4y.onrender.com/api/rings', {
         params: {
           sort: sortOption,
           page: currentPage,
