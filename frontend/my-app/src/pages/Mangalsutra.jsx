@@ -30,7 +30,7 @@ const MangalsutraPage = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/mangalsutras');
+      const response = await axios.get('https://jewelry-backend-gq4y.onrender.com/api/mangalsutras');
       setProducts(response.data.mangalsutras);
     } catch (error) {
       console.error('Error fetching products:', error);
