@@ -23,11 +23,12 @@ app.use(express.json());
 // Enable CORS for frontend integration
 app.use(
   cors({
-    origin: '*',  // Allow all origins (for testing only)
+    origin: 'https://jewelry-frontend.vercel.app',  
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
+
 
 // Request Logging Middleware
 app.use((req, res, next) => {
