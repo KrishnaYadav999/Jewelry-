@@ -22,7 +22,7 @@ const Blogs = () => {
   useEffect(() => {
     if (id) {
       axios
-        .get(`http://localhost:5000/api/blogs/${id}`)
+        .get(`https://jewelry-backend-gq4y.onrender.com/api/blogs/${id}`)
         .then((res) => {
           setBlog(res.data);
           setTitle(res.data.title);
