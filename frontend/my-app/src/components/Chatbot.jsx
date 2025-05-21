@@ -33,7 +33,7 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/api/chatbot/chat", { message: text });
+      const res = await axios.post("https://jewelry-backend-gq4y.onrender.com/api/chatbot/chat", { message: text });
 
       let reply = "Sorry, I couldn't understand your question.";
 
