@@ -16,7 +16,7 @@ const Customers = () => {
         setIsLoading(true);
 
         // Fetch user data (Name, Email, Account Status)
-        const usersResponse = await axios.get("http://localhost:5000/api/users");
+        const usersResponse = await axios.get("https://jewelry-backend-gq4y.onrender.com/api/users");
         const usersData = usersResponse.data; // Assume the response is an array of user objects
         
         // Fetch order history data
