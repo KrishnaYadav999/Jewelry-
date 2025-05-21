@@ -14,7 +14,7 @@ const CustomerReviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/cf");
+        const response = await fetch("https://jewelry-backend-gq4y.onrender.com/api/cf");
         const data = await response.json();
         setReviews(data || []); // Ensure data is an array
       } catch (error) {
