@@ -1,0 +1,17 @@
+.flex-col.items-center img {
+  max-width: 100%; /* Ensures images don't overflow their container */
+  height: auto;    /* Maintains aspect ratio */
+}
+
+/* In your CSS file */
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+input:focus {
+  border-bottom-color: #3182ce; /* Change border color on focus */
+}
+
+label {
+  transition: all 0.2s ease-in-out;
+}

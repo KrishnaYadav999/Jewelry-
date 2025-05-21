@@ -1,0 +1,405 @@
+{
+      "products": [
+        {
+          "id": 1,
+          "image": "https://example.com/image1.jpg",
+          "name": "Gold Mangalsutra",
+          "discount": 10,
+          "rating": 4,
+          "reviews": 50,
+          "price": 500,
+          "originalPrice": 600
+        },
+        {
+          "id": 2,
+          "image": "https://zerakijewels.com/cdn/shop/files/New_arrivals_BANNER_ANKLETS.jpg?v=1723196559&width=1400",
+          "name": "Diamond Mangalsutra",
+          "discount": 20,
+          "rating": 5,
+          "reviews": 30,
+          "price": 700,
+          "originalPrice": 900
+        },
+        {
+          "id": 3,
+          "image": "https://example.com/image3.jpg",
+          "name": "Traditional Mangalsutra",
+          "discount": 15,
+          "rating": 3,
+          "reviews": 25,
+          "price": 600,
+          "originalPrice": 700
+        },
+        {
+          "id": 4,
+          "image": "https://example.com/image4.jpg",
+          "name": "Modern Mangalsutra",
+          "discount": 5,
+          "rating": 4,
+          "reviews": 45,
+          "price": 800,
+          "originalPrice": 840
+        },
+        {
+          "id": 5,
+          "image": "https://example.com/image5.jpg",
+          "name": "Elegant Mangalsutra",
+          "discount": 12,
+          "rating": 4,
+          "reviews": 60,
+          "price": 550,
+          "originalPrice": 625
+        },
+        {
+          "id": 6,
+          "image": "https://example.com/image6.jpg",
+          "name": "Simple Mangalsutra",
+          "discount": 8,
+          "rating": 3,
+          "reviews": 20,
+          "price": 450,
+          "originalPrice": 490
+        },
+        {
+          "id": 7,
+          "image": "https://example.com/image7.jpg",
+          "name": "Heavy Mangalsutra",
+          "discount": 18,
+          "rating": 5,
+          "reviews": 75,
+          "price": 900,
+          "originalPrice": 1100
+        },
+        {
+          "id": 8,
+          "image": "https://example.com/image8.jpg",
+          "name": "Artistic Mangalsutra",
+          "discount": 25,
+          "rating": 4,
+          "reviews": 40,
+          "price": 650,
+          "originalPrice": 870
+        },
+        {
+          "id": 9,
+          "image": "https://example.com/image9.jpg",
+          "name": "Gold-Plated Mangalsutra",
+          "discount": 10,
+          "rating": 4,
+          "reviews": 50,
+          "price": 300,
+          "originalPrice": 400
+        },
+        {
+          "id": 10,
+          "image": "https://example.com/image10.jpg",
+          "name": "Silver Mangalsutra",
+          "discount": 20,
+          "rating": 5,
+          "reviews": 33,
+          "price": 750,
+          "originalPrice": 950
+        },
+        {
+          "id": 11,
+          "image": "https://example.com/image11.jpg",
+          "name": "Black Beaded Mangalsutra",
+          "discount": 15,
+          "rating": 4,
+          "reviews": 28,
+          "price": 400,
+          "originalPrice": 470
+        },
+        {
+          "id": 12,
+          "image": "https://example.com/image12.jpg",
+          "name": "Colorful Mangalsutra",
+          "discount": 12,
+          "rating": 3,
+          "reviews": 35,
+          "price": 530,
+          "originalPrice": 600
+        },
+        {
+          "id": 13,
+          "image": "https://example.com/image13.jpg",
+          "name": "Floral Design Mangalsutra",
+          "discount": 20,
+          "rating": 5,
+          "reviews": 60,
+          "price": 850,
+          "originalPrice": 1060
+        },
+        {
+          "id": 14,
+          "image": "https://example.com/image14.jpg",
+          "name": "Classic Mangalsutra",
+          "discount": 8,
+          "rating": 4,
+          "reviews": 47,
+          "price": 720,
+          "originalPrice": 790
+        },
+        {
+          "id": 15,
+          "image": "https://example.com/image15.jpg",
+          "name": "Trendy Mangalsutra",
+          "discount": 10,
+          "rating": 4,
+          "reviews": 55,
+          "price": 480,
+          "originalPrice": 530
+        },
+        {
+          "id": 16,
+          "image": "https://example.com/image16.jpg",
+          "name": "Antique Mangalsutra",
+          "discount": 15,
+          "rating": 5,
+          "reviews": 40,
+          "price": 950,
+          "originalPrice": 1150
+        },
+        {
+          "id": 17,
+          "image": "https://example.com/image17.jpg",
+          "name": "Peacock Design Mangalsutra",
+          "discount": 5,
+          "rating": 3,
+          "reviews": 22,
+          "price": 600,
+          "originalPrice": 640
+        },
+        {
+          "id": 18,
+          "image": "https://example.com/image18.jpg",
+          "name": "Royal Mangalsutra",
+          "discount": 25,
+          "rating": 5,
+          "reviews": 75,
+          "price": 880,
+          "originalPrice": 1170
+        },
+        {
+          "id": 19,
+          "image": "https://example.com/image19.jpg",
+          "name": "Simple Chain Mangalsutra",
+          "discount": 10,
+          "rating": 4,
+          "reviews": 36,
+          "price": 390,
+          "originalPrice": 430
+        },
+        {
+          "id": 20,
+          "image": "https://example.com/image20.jpg",
+          "name": "Gothic Mangalsutra",
+          "discount": 15,
+          "rating": 4,
+          "reviews": 55,
+          "price": 720,
+          "originalPrice": 850
+        },
+        {
+          "id": 21,
+          "image": "https://example.com/image21.jpg",
+          "name": "Elegant Twist Mangalsutra",
+          "discount": 12,
+          "rating": 4,
+          "reviews": 48,
+          "price": 580,
+          "originalPrice": 680
+        },
+        {
+          "id": 22,
+          "image": "https://example.com/image22.jpg",
+          "name": "Charming Mangalsutra",
+          "discount": 20,
+          "rating": 3,
+          "reviews": 30,
+          "price": 430,
+          "originalPrice": 540
+        },
+        {
+          "id": 23,
+          "image": "https://example.com/image23.jpg",
+          "name": "Sleek Mangalsutra",
+          "discount": 18,
+          "rating": 5,
+          "reviews": 60,
+          "price": 660,
+          "originalPrice": 810
+        },
+        {
+          "id": 24,
+          "image": "https://example.com/image24.jpg",
+          "name": "Graceful Mangalsutra",
+          "discount": 25,
+          "rating": 4,
+          "reviews": 70,
+          "price": 400,
+          "originalPrice": 540
+        },
+        {
+          "id": 25,
+          "image": "https://example.com/image25.jpg",
+          "name": "Bold Mangalsutra",
+          "discount": 15,
+          "rating": 3,
+          "reviews": 20,
+          "price": 800,
+          "originalPrice": 940
+        },
+        {
+          "id": 26,
+          "image": "https://example.com/image26.jpg",
+          "name": "Elegant Beads Mangalsutra",
+          "discount": 10,
+          "rating": 5,
+          "reviews": 90,
+          "price": 530,
+          "originalPrice": 590
+        },
+        {
+          "id": 27,
+          "image": "https://example.com/image27.jpg",
+          "name": "Luxury Mangalsutra",
+          "discount": 20,
+          "rating": 4,
+          "reviews": 60,
+          "price": 780,
+          "originalPrice": 980
+        },
+        {
+          "id": 28,
+          "image": "https://example.com/image28.jpg",
+          "name": "Delicate Mangalsutra",
+          "discount": 15,
+          "rating": 3,
+          "reviews": 45,
+          "price": 450,
+          "originalPrice": 530
+        },
+        {
+          "id": 29,
+          "image": "https://example.com/image29.jpg",
+          "name": "Stylish Mangalsutra",
+          "discount": 12,
+          "rating": 4,
+          "reviews": 38,
+          "price": 620,
+          "originalPrice": 710
+        },
+        {
+          "id": 30,
+          "image": "https://example.com/image30.jpg",
+          "name": "Simple Elegance Mangalsutra",
+          "discount": 5,
+          "rating": 5,
+          "reviews": 55,
+          "price": 450,
+          "originalPrice": 470
+        },
+        {
+          "id": 31,
+          "image": "https://example.com/image31.jpg",
+          "name": "Glamorous Mangalsutra",
+          "discount": 20,
+          "rating": 4,
+          "reviews": 50,
+          "price": 890,
+          "originalPrice": 1110
+        },
+        {
+          "id": 32,
+          "image": "https://example.com/image32.jpg",
+          "name": "Modern Twist Mangalsutra",
+          "discount": 10,
+          "rating": 3,
+          "reviews": 22,
+          "price": 540,
+          "originalPrice": 600
+        },
+        {
+          "id": 33,
+          "image": "https://example.com/image33.jpg",
+          "name": "Sophisticated Mangalsutra",
+          "discount": 25,
+          "rating": 5,
+          "reviews": 65,
+          "price": 1020,
+          "originalPrice": 1300
+        },
+        {
+          "id": 34,
+          "image": "https://example.com/image34.jpg",
+          "name": "Bridal Mangalsutra",
+          "discount": 15,
+          "rating": 4,
+          "reviews": 35,
+          "price": 770,
+          "originalPrice": 910
+        },
+        {
+          "id": 35,
+          "image": "https://example.com/image35.jpg",
+          "name": "Designer Mangalsutra",
+          "discount": 20,
+          "rating": 5,
+          "reviews": 40,
+          "price": 860,
+          "originalPrice": 1070
+        },
+        {
+          "id": 36,
+          "image": "https://example.com/image36.jpg",
+          "name": "Chic Mangalsutra",
+          "discount": 10,
+          "rating": 3,
+          "reviews": 50,
+          "price": 490,
+          "originalPrice": 540
+        },
+        {
+          "id": 37,
+          "image": "https://example.com/image37.jpg",
+          "name": "Rustic Mangalsutra",
+          "discount": 15,
+          "rating": 4,
+          "reviews": 32,
+          "price": 740,
+          "originalPrice": 870
+        },
+        {
+          "id": 38,
+          "image": "https://example.com/image38.jpg",
+          "name": "Timeless Mangalsutra",
+          "discount": 20,
+          "rating": 5,
+          "reviews": 100,
+          "price": 900,
+          "originalPrice": 1150
+        },
+        {
+          "id": 39,
+          "image": "https://example.com/image39.jpg",
+          "name": "Intricate Mangalsutra",
+          "discount": 12,
+          "rating": 4,
+          "reviews": 45,
+          "price": 650,
+          "originalPrice": 740
+        },
+        {
+          "id": 40,
+          "image": "https://example.com/image40.jpg",
+          "name": "Classic Chain Mangalsutra",
+          "discount": 8,
+          "rating": 3,
+          "reviews": 29,
+          "price": 360,
+          "originalPrice": 400
+        }
+      ]
+    }
+    

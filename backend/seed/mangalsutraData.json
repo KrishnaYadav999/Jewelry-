@@ -1,0 +1,23 @@
+{
+      "mangalsutras": [
+        {
+          "image": "https://example.com/image1.jpg",
+          "name": "Gold Mangalsutra",
+          "discount": 10,
+          "rating": 4,
+          "reviews": 50,
+          "price": 500,
+          "originalPrice": 600
+        },
+        {
+          "image": "https://zerakijewels.com/cdn/shop/files/New_arrivals_BANNER_ANKLETS.jpg?v=1723196559&width=1400",
+          "name": "Diamond Mangalsutra",
+          "discount": 20,
+          "rating": 5,
+          "reviews": 30,
+          "price": 700,
+          "originalPrice": 900
+        }
+      ]
+    }
+    

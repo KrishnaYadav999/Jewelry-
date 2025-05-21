@@ -1,0 +1,47 @@
+[
+  {
+    "intent": "categories_list",
+    "patterns": ["What categories do you have?", "Show all products", "List of jewellery types"],
+    "responses": [
+      "Here are the categories: Earrings, Bracelets, Bangles, Earrings Combo, Rings, Pendant Set, Necklace Set."
+    ]
+  },
+  {
+    "intent": "order_process",
+    "patterns": ["How can I place an order?", "I want to checkout", "Order steps"],
+    "responses": [
+      "To place an order: Add items to cart → Checkout → Fill shipping address → Choose payment method → Confirm order."
+    ]
+  },
+  {
+    "intent": "payment_method",
+    "patterns": ["What payment methods are available?", "How can I pay?", "payment options"],
+    "responses": ["You can pay using Razorpay (Card/UPI/Net Banking)."]
+  },
+  {
+    "intent": "cancel_order",
+    "patterns": ["How to cancel my order?", "I want to cancel", "Cancel the order"],
+    "responses": ["You can cancel your order from your profile page or contact our customer care."]
+  },
+  {
+    "intent": "customer_care",
+    "patterns": ["How do I contact support?", "Customer care number", "support email"],
+    "responses": [
+      "You can reach our customer care Mon - Sat (10:00 AM to 6 PM) at 📞 +91 9028772788 or 📧 krishnaerrorr@gmail.com."
+    ]
+  },
+  {
+    "intent": "footer_info",
+    "patterns": ["What’s in the footer?", "Where is jewellery care info?", "Do you have blogs?"],
+    "responses": [
+      "You’ll find Quick Links in our footer: Customer Reviews, Blogs, Store Locator, Jewellery Care, Join Us."
+    ]
+  },
+  {
+    "intent": "newsletter",
+    "patterns": ["How to get offers?", "Subscribe to updates", "newsletter"],
+    "responses": [
+      "Sign up for our newsletter to get exclusive offers and updates!"
+    ]
+  }
+]

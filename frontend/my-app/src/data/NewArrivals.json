@@ -1,0 +1,83 @@
+[
+      {
+        "id": 1,
+        "name": "Ahana Mangalsutra",
+        "image": "https://zerakijewels.com/cdn/shop/files/14_0229ff3a-9cff-4e94-ab2f-b89aad6e9110.png?v=1713515468&width=1000",
+        "rating": 4,
+        "reviews": 45,
+        "price": 799,
+        "originalPrice": 1199,
+        "discount": 33
+      },
+      {
+        "id": 2,
+        "name": "Kaira Necklace",
+        "image": "/images/Screenshot (202).png",
+        "rating": 5,
+        "reviews": 20,
+        "price": 1299,
+        "originalPrice": 1599,
+        "discount": 20
+      },
+      {
+        "id": 3,
+        "name": "Isha Bracelet",
+        "image": "/images/Screenshot (203).png",
+        "rating": 4,
+        "reviews": 38,
+        "price": 499,
+        "originalPrice": 799,
+        "discount": 37
+      },
+      {
+        "id": 4,
+        "name": "Ritika Anklet",
+        "image": "/images/Screenshot (204).png",
+        "rating": 4,
+        "reviews": 28,
+        "price": 599,
+        "originalPrice": 999,
+        "discount": 40
+      },
+      {
+        "id": 5,
+        "name": "Vanya Earrings",
+        "image": "/images/Screenshot (205).png",
+        "rating": 5,
+        "reviews": 15,
+        "price": 349,
+        "originalPrice": 499,
+        "discount": 30
+      },
+      {
+        "id": 6,
+        "name": "Myra Pendant",
+        "image": "/images/Screenshot (206).png",
+        "rating": 5,
+        "reviews": 50,
+        "price": 899,
+        "originalPrice": 1199,
+        "discount": 25
+      },
+      {
+        "id": 7,
+        "name": "Rhea Bangle",
+        "image": "/images/Screenshot (207).png",
+        "rating": 4,
+        "reviews": 33,
+        "price": 699,
+        "originalPrice": 999,
+        "discount": 30
+      },
+      {
+        "id": 8,
+        "name": "Zara Necklace Set",
+        "image": "/images/Screenshot (208).png",
+        "rating": 5,
+        "reviews": 10,
+        "price": 1599,
+        "originalPrice": 1999,
+        "discount": 20
+      }
+    ]
+    
