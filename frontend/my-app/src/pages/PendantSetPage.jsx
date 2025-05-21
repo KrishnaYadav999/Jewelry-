@@ -26,7 +26,7 @@ const PendantSetPage = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/pendantsets', {
+      const response = await axios.get('https://jewelry-backend-gq4y.onrender.com/api/pendantsets', {
         params: {
           sort: sortOption,
           page: currentPage,
