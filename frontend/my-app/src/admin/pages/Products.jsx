@@ -10,12 +10,12 @@ const Products = () => {
   const navigate = useNavigate();
 
   const categoryAPIs = {
-    Mangalsutras: "http://localhost:5000/api/mangalsutras",
-    Bangles: "http://localhost:5000/api/bangles",
-    Bracelets: "http://localhost:5000/api/bracelets",
-    Earrings: "http://localhost:5000/api/earrings",
-    PendantSets: "http://localhost:5000/api/pendantSets",
-    Rings: "http://localhost:5000/api/rings",
+    Mangalsutras: "https://jewelry-backend-gq4y.onrender.com/api/mangalsutras",
+    Bangles: "https://jewelry-backend-gq4y.onrender.com/api/bangles",
+    Bracelets: "https://jewelry-backend-gq4y.onrender.com/api/bracelets",
+    Earrings: "https://jewelry-backend-gq4y.onrender.com/api/earrings",
+    PendantSets: "https://jewelry-backend-gq4y.onrender.com/api/pendantSets",
+    Rings: "https://jewelry-backend-gq4y.onrender.com/api/rings",
   };
 
   const fetchAllProducts = async () => {
