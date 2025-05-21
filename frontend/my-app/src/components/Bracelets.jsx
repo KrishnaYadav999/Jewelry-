@@ -12,7 +12,7 @@ const Bracelets = () => {
     const fetchProducts = async () => {
       try {
         // Fetch bracelets data from the API
-        const response = await axios.get('http://localhost:5000/api/bracelets');
+        const response = await axios.get('https://jewelry-backend-gq4y.onrender.com/api/bracelets');
 
         // Log response to debug structure
         console.log(response.data);
