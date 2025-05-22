@@ -23,7 +23,7 @@ app.use(express.json());
 // CORS setup - allow frontend origin and credentials
 app.use(
   cors({
-    origin: "https://jewelry-frontend.vercel.app", // your frontend URL
+    origin: "https://jewelry-d35r.vercel.app", // your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
